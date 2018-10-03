@@ -8,10 +8,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.devglan.userportal")
-@EntityScan(basePackages = "com.devglan.userportal")
+@ComponentScan(basePackages = "com.devglan.user-portal")
+@EntityScan(basePackages = "com.devglan.user-portal")
 @EnableAutoConfiguration
-@EnableJpaRepositories(basePackages = "com.devglan.userportal")
+@EnableJpaRepositories(basePackages = "com.devglan.user-portal")
 public class UserPortalApplication {
 
 	public static void main(String[] args) {
