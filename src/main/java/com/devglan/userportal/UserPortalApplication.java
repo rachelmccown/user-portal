@@ -21,5 +21,20 @@ public class UserPortalApplication {
 
 
 
-// sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=dbname -p 3306:3306 mysql:5.7
+// sudo docker run --name practice -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=dbname -p 3306:3306 mysql:5.7
+//sudo docker exec -it practice bash
+//mysql -u root -p
+//enter "password"
+//CREATE TABLE user(id INT NOT NULL AUTO_INCREMENT,email VARCHAR(255),first_name  VARCHAR(255),last_name VARCHAR(255),PRIMARY KEY (id))ENGINE=InnoDB;
+//describe user;
+/**
+ * +------------+--------------+------+-----+---------+----------------+
+ * | Field      | Type         | Null | Key | Default | Extra          |
+ * +------------+--------------+------+-----+---------+----------------+
+ * | id         | int(11)      | NO   | PRI | NULL    | auto_increment |
+ * | email      | varchar(255) | YES  |     | NULL    |                |
+ * | first_name | varchar(255) | YES  |     | NULL    |                |
+ * | last_name  | varchar(255) | YES  |     | NULL    |                |
+ * +------------+--------------+------+-----+---------+----------------+
+ */
 
