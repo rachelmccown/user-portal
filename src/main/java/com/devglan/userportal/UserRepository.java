@@ -10,7 +10,7 @@ public interface UserRepository extends Repository<User,Integer> {
 
     List<User> findAll();
 
-    User findOne(Integer id);
+    User findById(Integer id);
 
     User save(User user);
 }

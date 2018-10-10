@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User delete(int id) {
+    public User delete(Integer id) {
         User user = findById(id);
         if(user != null){
             repository.delete(user);
@@ -31,8 +31,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User findById(int id) {
-        return repository.findOne(id);
+    public User findById(Integer id) {
+        return repository.findById(id);
     }
 
     @Override

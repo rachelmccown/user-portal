@@ -6,11 +6,11 @@ public interface UserService {
 
     User create(User user);
 
-    User delete(int id);
+    User delete(Integer id);
 
     List<User> findAll();
 
-    User findById(int id);
+    User findById(Integer id);
 
     User update(User user);
 }
